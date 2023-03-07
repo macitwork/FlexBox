@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:ital,wght@0,100;0,400;0,600;0,900;1,200&display=swap');
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+
+/*FONTS---*/
+h1{ font-family: Poppins, sans-serif;color:Black; font-weight:900; font-style:normal;font-size:70px;}
+h2{ font-family: Poppins, sans-serif;color:Black; font-weight:600; font-style:normal;font-size:14px;}
+h4{ font-family: Poppins, sans-serif; color:Black;font-weight:600;padding:1px;font-size:18px;}
+h5{ font-family: Poppins, sans-serif; color:White;font-weight:600;font-size:12px;}
+h6{ font-family: Poppins, sans-serif;color:Black; font-weight:100; font-style:italic;font-size:8px;}
+
+p {font-family: Poppins, sans-serif; color:Black;  font-weight:600;font-size: 10px;}
+
+
+body {
+
+    font-family: sans-serif;
+    font-size: 16px;
+
+}
+
+
+a {
+
+    color: #181717;
+
+    text-decoration: none;
+
+}
+/*----------OPDRACHT 1-----------*/
+
+.opdracht-1{
+    display: flex ;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: space-between;
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.menu{
+    display: flex ;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: space-between;
+    flex-shrink: 0;
+    flex-grow: 1;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+/*----------OPDRACHT 2-----------*/
+.opdracht-2{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(255, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+
+}
+.ik-heb {
+    display: flex ;
+    flex-direction: row;
+    background-color: rgba(255, 0, 0, 0.2);
+    flex-basis: auto;
+    margin: 10px;
+    padding: 20px;
+
+}
+.item-1{
+
+    display:flex ;
+    justify-content: flex-start;
+   align-self: baseline;
+}
+
+.item-2{
+
+    display:flex;
+    justify-content: center;
+
+
+
+}
+.item-3{
+    display:flex ;
+    justify-content: flex-end;
+
+}
+
+/*----------OPDRACHT 3-----------*/
+.opdracht-3{
+    display: flex;
+    flex-direction: column;
+    flex-basis: content-box;
+    background-color: rgba(255, 0, 0, 0.2);
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+.item-top{
+    display: flex;
+    align-self: flex-start;
+    align-content: space-between;
+    margin: 10px;
+
+}
+.item-centered{
+    display: flex;
+    align-self:center;
+    order: 2;
+    align-content: space-between;
+    margin: 10px;
+
+
+
+
+}
+
+.item-bottom{
+    display: flex;
+    align-self: flex-end;
+    order: 3;
+    align-content: space-between;
+    margin: 10px;
+
+
+
+}
+/*----------OPDRACHT 4-----------*/
+
+.opdracht-4{
+    display: flex;
+    flex-direction: row;
+    order: 19;
+    flex-wrap: wrap;
+    background-color: rgba(255, 0, 0, 0.2);
+
+}
+.zorg{
+    display: flex;
+    flex-direction: row;
+    flex-order: 19;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 20px;
+}
+/*----------OPDRACHT 5-----------*/
+.opdracht-5{
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+
+}
+.op5{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+}
+.left {
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+
+}
+.center{
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+}
+.right{
+    flex-direction: column;
+    align-items: flex-end;
+    flex-basis: content-box;
+    margin: 10px;
+    padding: 20px;
+
+
+
+}
